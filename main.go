@@ -10,9 +10,14 @@ func main() {
 	a := 10.0
 	b := 20.0
 
-	fmt.Println(math.Addition(a, b))
-	fmt.Println(math.Subtraction(a, b))
-	fmt.Println(math.Subtraction(a, b))
-	fmt.Println(math.Multiplication(a, b))
+	Addition := math.Addition(a, b)
+	Subtraction := math.Subtraction(a, b)
+	Distribution := math.Distribution(a, b)
+	Multiplication := math.Multiplication(a, b)
+
+	fmt.Println(Addition * 2)
+	fmt.Println(Subtraction)
+	fmt.Println(Distribution)
+	fmt.Println(Multiplication)
 
 }
